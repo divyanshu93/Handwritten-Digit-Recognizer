@@ -1,5 +1,5 @@
 library(e1071)
-writing.data=read.csv("/home/aditya/Desktop/Aditya/Semper/Final Project/train.csv",header = T)
+writing.data=read.csv("/home/Desktop/Final Project/train.csv",header = T)
 
 smp_size <- floor(0.75 * nrow(writing.data))
 train_ind=sample(seq_len(nrow(writing.data)), size = smp_size)
